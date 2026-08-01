@@ -1,8 +1,26 @@
 aid: precidian-investments
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/precidian-investments.png
 name: Precidian Investments
-description: Precidian Investments is a company surfaced as a portfolio company of battery-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Precidian Investments is an industry leader in the creation of innovative financial
+  products, specializing in exchange-traded fund (ETF) and mutual fund development. The firm
+  is best known for ActiveShares, its patented non-transparent actively managed ETF structure,
+  and licenses its proprietary processes, technologies, and structures to financial institutions
+  or acts as sponsor for products. Its expertise spans product development, trading, clearance,
+  sales, technology, and securities law. Precidian operates as a business-to-business partner to
+  asset managers and ETF providers and does not publish a public developer API, developer portal,
+  or SDKs. It was surfaced as a portfolio company of Battery Ventures and added to the API
+  Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/precidian-investments/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Financial Services
+- Asset Management
+- Exchange Traded Funds
+- Mutual Funds
+- Fintech
+- Investment Products
 apis: []
+common:
+- type: DomainSecurity
+  url: security/precidian-investments-domain-security.yml
+- type: Website
+  url: https://www.precidian.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

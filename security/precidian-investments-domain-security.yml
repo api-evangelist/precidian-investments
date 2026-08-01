@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.precidian.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Oct  8 23:47:17 2026 GMT
+  hsts: false
+domains:
+- domain: precidian.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
