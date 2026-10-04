@@ -44,7 +44,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Asset Management
 - Exchange-Traded Funds
 - Mutual Funds
@@ -58,6 +58,7 @@ tags_raw:
 - Mutual Funds
 - Fintech
 - Investment Products
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
